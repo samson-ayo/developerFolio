@@ -23,8 +23,7 @@ const greeting = {
   username: "Samson Olotu",
   title: "Hi, I'm Samson",
   subTitle: emoji("Data Scientist & AI Freelancer | Big Data | NLP | Dashboards"),
-  resumeLink:
-    "https://drive.google.com/file/d/1nFFCQq_-zTZ0GiXCxUeSSdO8UtAziHlX/view?usp=drive_link", // Set to empty to hide the button
+  resumeLink: "OLOTU_SAMSON_AYODELE_CV.pdf",// Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -358,7 +357,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
