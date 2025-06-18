@@ -23,7 +23,7 @@ const greeting = {
   username: "Samson Olotu",
   title: "Hi, I'm Samson",
   subTitle: emoji("Data Scientist & AI Freelancer | Big Data | NLP | Dashboards"),
-  resumeLink: "OLOTU_SAMSON_AYODELE_CV.pdf",// Set to empty to hide the button
+  resumeLink: "OLOTU_SAMSON_CV.pdf",// Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
