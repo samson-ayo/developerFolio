@@ -20,26 +20,20 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+  username: "Samson Olotu",
+  title: "Hi, I'm Samson",
+  subTitle: emoji("Data Scientist & AI Freelancer | Big Data | NLP | Dashboards"),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1nFFCQq_-zTZ0GiXCxUeSSdO8UtAziHlX/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/samson-ayo",
+  linkedin: "https://www.linkedin.com/in/samson-olotu-mbcs-b30387247/",
+  gmail: "olotusamson772@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +43,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "ANYTHING ANALYSIS, BIG DATA, SENTIMENT ANALYSIS AND VISUALIZATION",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive Dashboard and Machine Learning Models"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as AWS and Azure"
     )
   ],
 
@@ -64,38 +57,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -105,16 +66,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "visualization",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+     {
+      skillName: "R",
+      fontAwesomeClassname: "fas fa-registered"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +87,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Salford",
+      logo: require("./assets/images/salford_logo.jpg"),
+      subHeader: "Master of Science in Data Science (Distinction)",
+      duration: "January 2022 - June 2023",
+      desc: "Carried out a number of coursework and a research thesis on 'Exploring the Interplay between Dimensionality Reduction, Feature Selection, and Machine Learning Performance'",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Investigated advanced feature engineering strategies and their impact on machine learning in large datasets.",
+        "Developed scalable and interpretable models applicable to healthcare and anomaly detection."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Unilorin",
+      logo: require("./assets/images/University-of-Ilorin-UNILORIN-Courses-and-Requirements.webp"),
+      subHeader: "Bachelor of Science in Physics",
+      duration: "September 2014 - October 2018",
     }
   ]
 };
@@ -153,17 +112,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Python (pandas, numpy, matplotlib, spaCy)", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "SQL (PostgreSQL, MySQL)",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Power BI & Tableau",
+      progressPercentage: "80%"
+    },
+       {
+      Stack: "AWS & Azure",
       progressPercentage: "70%"
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+       {
+      Stack: "Machine Learning (Supervised & Unsupervised Learning, Sentiment Analysis, Anomaly Detection in Time Series, Data Preprocessing and Feature Engineering)",
+      progressPercentage: "80%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -171,7 +138,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -206,35 +173,68 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Resources Contribution to GDP in Africa",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/OIP chart.webp"),
+      projectName: "Statistical Analysis and Data Visualization",
+      projectDesc: "Understanding the contribution of the different natural resources to the GDP in some African countries using statistical method and dashboard",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/samson-ayo/Resources-Contribution-to-GDP-in-Africa"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/download (1).png"),
+      projectName: "Hotel Review Analysis",
+      projectDesc: "The project involves the application of text mining and sentiment analysis to extract the sentiment from customer's feedback across hotel/resturant in India",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/samson-ayo/Hotel-Review-Sentiment-Analysis"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/download 2.png"),
+      projectName: "Diebetes Prediction",
+      projectDesc: "In this project, we applied a Supervised learning algorithm to predict whether a patient is disbetic or not using Diabetes data from UCI repository. The Algorithm employed is Random Forest and Neural network using Keras",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/samson-ayo/Diabetes-Prediction"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/download.png"),
+      projectName: "Clustering Travel Interest Reviews",
+      projectDesc: "Using the travel reviews dataset, we aim to divide users into clusters of similar interests using their feedback rating information about different destinations across East Asia.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/samson-ayo/Clustering-Travel-Interest-Reviews"
+        }
+      ]
+    },
+     {
+      image: require("./assets/images/cpn.jpg"),
+      projectName: "Child Wellbeing Monitor",
+      projectDesc: "The project's purpose is to develop Child Well-Being Monitor, a reporting tool that will break down data on child poverty.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/samson-ayo/Child-Wellbeing-Monitor/tree/main"
         }
       ]
     }
@@ -246,57 +246,50 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "AWS Data Analytics",
+      image: require("./assets/images/image.png"),
+      imageAlt: "AWS Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "AWS Certification",
+          url: "https://www.credly.com/badges/12977158-8c53-481b-a7fa-cf56f0ac5bbe/print"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Advanced SQL",
+      image: require("./assets/images/OIP.jpeg"),
+      imageAlt: "Udemy Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Udemy Cerification",
+          url: "https://www.udemy.com/certificate/UC-640dc8ae-b394-47d9-8603-f48e066cadea/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Data Analysis with Python",
+      image: require("./assets/images/blob.png"),
+      imageAlt: "IBM Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "IBM Certification", 
+          url: "https://www.credly.com/badges/a128a7ff-81e5-40ee-ab5c-0e2b3cce5618/linked_in_profile"},
+      ]
+    },
+       {
+      title: "Harnessing the Power of Data with Power BI",
+      image: require("./assets/images/MSFT-stacked-logo_FINAL.png"),
+      imageAlt: "Microsoft Logo",
+      footerLink: [
+        {name: "Power BI Certification", 
+          url: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~VL21P6RDQ3TG/CERTIFICATE_LANDING_PAGE~VL21P6RDQ3TG.jpeg"},
       ]
     }
   ],
@@ -324,7 +317,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +336,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +349,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,25 +358,25 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Interested in collaborating, hiring, or discussing research? Reach out!.",
+  number: "+44 7384848027",
+  email_address: "olotusamson772@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
