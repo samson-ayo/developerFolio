@@ -298,7 +298,7 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Case Studies & Blog",
+  title: "Blogs",
   subtitle:
     "Insights into my work, thinking, and growth.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
