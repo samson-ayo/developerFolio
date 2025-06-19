@@ -88,21 +88,17 @@
 
 .contact-form {
   max-width: 600px;
-  margin: auto;
-  background-color: #f9f9f9;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
 }
 
 .contact-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .contact-form label {
   display: block;
   font-weight: 600;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .contact-form input,
@@ -111,12 +107,14 @@
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 25px;
-  font-family: inherit;
+  font-size: 16px;
+}
+
+.contact-form textarea {
   resize: vertical;
 }
 
-.contact-form button {
+.submit-button {
   padding: 12px 24px;
   background-color: #0077cc;
   color: white;
@@ -126,6 +124,7 @@
   cursor: pointer;
 }
 
-.contact-form button:hover {
+.submit-button:hover {
   background-color: #005fa3;
 }
+

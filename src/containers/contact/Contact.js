@@ -52,21 +52,23 @@ export default function Contact() {
               <SocialMedia />
             </div>
           </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
-          </div>
-        </div>
-      </div>
-    <form name="contact" method="POST" data-netlify="true" className="contact-form">
+          <form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  data-netlify-honeypot="bot-field"
+  className="contact-form"
+  style={{ marginTop: "2rem" }}
+>
   <input type="hidden" name="form-name" value="contact" />
-  
+
+  {/* Honeypot field for bots */}
+  <p style={{ display: "none" }}>
+    <label>
+      Don’t fill this out if you're human: <input name="bot-field" />
+    </label>
+  </p>
+
   <div className="form-group">
     <label>Your Name</label>
     <input type="text" name="name" required />
@@ -82,9 +84,23 @@ export default function Contact() {
     <textarea name="message" rows="5" required></textarea>
   </div>
 
-  <button type="submit">Send Message</button>
+  <button type="submit" className="submit-button">
+    Send Message
+  </button>
 </form>
-  
+
+          <div className="contact-image-div">
+            {illustration.animated ? (
+              <DisplayLottie animationData={email} />
+            ) : (
+              <img
+                alt="Man working"
+                src={require("../../assets/images/contactMailDark.svg")}
+              ></img>
+            )}
+          </div>
+        </div>
+      </div>
     </Fade>
     
   );
