@@ -78,6 +78,7 @@ export default function Contact() {
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
+                data-netlify-recaptcha="true"
                 onSubmit={handleSubmit}
                 className="contact-form"
                 style={{ marginTop: "2rem" }}
@@ -103,7 +104,9 @@ export default function Contact() {
                   <label>Your Message</label>
                   <textarea name="message" rows="5" required></textarea>
                 </div>
-
+                <div className="form-group">
+                <div data-netlify-recaptcha="true"></div>
+                </div>
                 <button type="submit" className="submit-button">
                   Send Message
                 </button>
