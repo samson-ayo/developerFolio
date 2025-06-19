@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!-- Edit meta tags for SEO -->
     <title>Samson A Olotu | Data Analyst & AI Freelancer</title>
@@ -81,7 +82,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
       <!-- Netlify form detection -->
-      <form name="contact" netlify hidden>
+      <form name="contact" netlify netlify-recaptcha hidden>
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message"></textarea>
