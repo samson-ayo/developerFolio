@@ -79,7 +79,7 @@ export default function Contact() {
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
-                className="contact-form"
+                //className="contact-form"
                 style={{ marginTop: "2rem" }}
               >
                 <input type="hidden" name="form-name" value="contact" />
