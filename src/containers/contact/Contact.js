@@ -77,8 +77,8 @@ export default function Contact() {
                 name="contact"
                 method="POST"
                 data-netlify="true"
-                data-netlify-recaptcha="true"
                 data-netlify-honeypot="bot-field"
+                data-netlify-recaptcha="true"
                 onSubmit={handleSubmit}
                 className="contact-form"
                 style={{ marginTop: "2rem" }}
