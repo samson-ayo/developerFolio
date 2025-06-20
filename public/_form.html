@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Detection Page</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form name="contact" method="POST" netlify netlify-recaptcha>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <div data-netlify-recaptcha="true"></div>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
