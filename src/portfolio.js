@@ -304,7 +304,7 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "./blogs/From_Raw_Data_to_Insights.pdf",
+      url: "public/blogs/From_Raw_Data_to_Insights.pdf",
       title: "From Raw Data to Insights: My Approach to Data Cleaning and Exploration",
       description:
         "How I transform raw, messy data into actionable insights using Python, Pandas, and EDA best practices.",
