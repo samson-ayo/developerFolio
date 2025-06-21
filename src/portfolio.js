@@ -236,6 +236,17 @@ const bigProjects = {
           url: "https://github.com/samson-ayo/Child-Wellbeing-Monitor/tree/main"
         }
       ]
+    },
+     {
+      image: require("./assets/images/clinical tria.png"),
+      projectName: "Clinical Trail Analysis",
+      projectDesc: "The goal of this is to extract valuable insights by integrating clinical trial data with pharmaceutical company listings and condition hierarchy information.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/samson-ayo/Clinical_Trial_Analysis"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true

@@ -104,7 +104,7 @@ export default function Contact() {
                   <label>Your Message</label>
                   <textarea name="message" rows="5" required></textarea>
                 </div>
-                <div data-netlify-recaptcha="true"></div>
+                <div className="g-recaptcha" data-sitekey="6LdovmgrAAAAABs8tvDbFdOBJqnmPuHlo7FVfeoS"></div>
                 <button type="submit" className="submit-button">
                   Send Message
                 </button>
