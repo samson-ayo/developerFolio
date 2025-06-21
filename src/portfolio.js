@@ -183,8 +183,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/OIP chart.webp"),
-      projectName: "Statistical Analysis and Data Visualization",
-      projectDesc: "Understanding the contribution of the different natural resources to the GDP in some African countries using statistical method and dashboard",
+      projectName: "Analyzing the Impact of Natural Resources on GDP in African Regions",
+      projectDesc: "This project aims to evaluate the contribution of natural resources to the GDP across selected African nations and compare regional differences using robust statistical and data visualization techniques.",
       footerLink: [
         {
           name: "Visit Website",
@@ -195,8 +195,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/download (1).png"),
-      projectName: "Hotel Review Analysis",
-      projectDesc: "The project involves the application of text mining and sentiment analysis to extract the sentiment from customer's feedback across hotel/resturant in India",
+      projectName: "Application of Sentiment Analysis and Text Mining on Hotel & Restaurant Reviews",
+      projectDesc: "This project focuses on applying text mining and sentiment analysis techniques to analyze thousands of customer feedback from 30 different hotels and restaurants across India.",
       footerLink: [
         {
           name: "Visit Website",
@@ -206,8 +206,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/download 2.png"),
-      projectName: "Diebetes Prediction",
-      projectDesc: "In this project, we applied a Supervised learning algorithm to predict whether a patient is disbetic or not using Diabetes data from UCI repository. The Algorithm employed is Random Forest and Neural network using Keras",
+      projectName: "Application of Machine Learning in Diabetes Prediction",
+      projectDesc: "This project explores the application of Supervised Machine Learning techniques to predict whether an individual is diabetic or not, based on various medical attributes. Leveraging data from the UCI Machine Learning Repository, the goal is to build a reliable predictive model to assist in early detection and risk assessment of diabetes",
       footerLink: [
         {
           name: "Visit Website",
@@ -217,8 +217,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/download.png"),
-      projectName: "Clustering Travel Interest Reviews",
-      projectDesc: "Using the travel reviews dataset, we aim to divide users into clusters of similar interests using their feedback rating information about different destinations across East Asia.",
+      projectName: "Clustering Traveler Preferences in East Asia Using Review Data",
+      projectDesc: "Using unsupervised machine learning, we cluster users based on similar travel preferences, helping future travelers or tourism platforms recommend personalized experiences.",
       footerLink: [
         {
           name: "Visit Website",
@@ -228,8 +228,8 @@ const bigProjects = {
     },
      {
       image: require("./assets/images/cpn.jpg"),
-      projectName: "Child Wellbeing Monitor",
-      projectDesc: "The project's purpose is to develop Child Well-Being Monitor, a reporting tool that will break down data on child poverty.",
+      projectName: "Child Well-Being Monitor",
+      projectDesc: "The Child Well-Being Monitor is a data reporting tool designed to provide an accessible, low-cost means of examining and visualizing child poverty metrics across nations.",
       footerLink: [
         {
           name: "Visit Website",
@@ -239,8 +239,8 @@ const bigProjects = {
     },
      {
       image: require("./assets/images/clinical tria.png"),
-      projectName: "Clinical Trail Analysis",
-      projectDesc: "The goal of this is to extract valuable insights by integrating clinical trial data with pharmaceutical company listings and condition hierarchy information.",
+      projectName: "Clinical Trial Data Analysis using Apache Spark, Databricks & AWS",
+      projectDesc: "This project focuses on the large-scale analysis of clinical trial datasets. The goal is to extract valuable insights by integrating clinical trial data with pharmaceutical company listings and condition hierarchy information. The analysis is conducted using Apache Spark (RDD and DataFrame APIs) on Databricks and further extended with AWS Redshift and Athena for scalable querying and reporting.",
       footerLink: [
         {
           name: "Visit Website",
