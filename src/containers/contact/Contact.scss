@@ -147,10 +147,13 @@
 .g-recaptcha {
   opacity: 1 !important;
   visibility: visible !important;
-  position: relative !important;
+  position: static !important;
+  opacity: 1 !important;
   z-index: 10 !important;
   transform: none !important;
   display: block !important;
+  height: 78px !important; /* <-- This is key */
+  width: 100% !important;
   margin-top: 1rem;
 }
 [data-netlify-recaptcha] {
