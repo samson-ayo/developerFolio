@@ -321,6 +321,13 @@ const blogSection = {
         "How I transform raw, messy data into actionable insights using Python, Pandas, and EDA best practices.",
       image: "./data cleaning.png"
     },
+    {
+      url: "/blogs/Sentiment_Analysis_blog.pdf",
+      title: "Text Mining Hotel Reviews: How I Used Sentiment Analysis to Rate Guest Experiences",
+      description:
+        "A deep dive into how I used Natural Language Processing to analyze and classify customer sentiments from hotel and restaurant reviews using Naive Bayes and Random Forest models. I explored how data cleaning, TF-IDF, and model evaluation can extract business value from raw text.",
+      image: "./data cleaning.png"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
